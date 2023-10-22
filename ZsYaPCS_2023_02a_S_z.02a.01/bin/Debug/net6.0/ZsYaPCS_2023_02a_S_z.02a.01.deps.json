@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ZsYaPCS_2023_02a_S_z.02a.01/1.0.0": {
+        "runtime": {
+          "ZsYaPCS_2023_02a_S_z.02a.01.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ZsYaPCS_2023_02a_S_z.02a.01/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

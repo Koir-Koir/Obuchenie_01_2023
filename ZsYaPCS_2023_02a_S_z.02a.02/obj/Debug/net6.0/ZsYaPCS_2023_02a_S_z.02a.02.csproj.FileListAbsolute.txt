@@ -1,0 +1,15 @@
+C:\Obuchenie_01_2023\GeekBrains\Kurs1\ZsYaPCS_2023\ZsYaPCS_2023_02a_Samostoyatelnaya\ZsYaPCS_2023_02a_S_z.02a.02\bin\Debug\net6.0\ZsYaPCS_2023_02a_S_z.02a.02.exe
+C:\Obuchenie_01_2023\GeekBrains\Kurs1\ZsYaPCS_2023\ZsYaPCS_2023_02a_Samostoyatelnaya\ZsYaPCS_2023_02a_S_z.02a.02\bin\Debug\net6.0\ZsYaPCS_2023_02a_S_z.02a.02.deps.json
+C:\Obuchenie_01_2023\GeekBrains\Kurs1\ZsYaPCS_2023\ZsYaPCS_2023_02a_Samostoyatelnaya\ZsYaPCS_2023_02a_S_z.02a.02\bin\Debug\net6.0\ZsYaPCS_2023_02a_S_z.02a.02.runtimeconfig.json
+C:\Obuchenie_01_2023\GeekBrains\Kurs1\ZsYaPCS_2023\ZsYaPCS_2023_02a_Samostoyatelnaya\ZsYaPCS_2023_02a_S_z.02a.02\bin\Debug\net6.0\ZsYaPCS_2023_02a_S_z.02a.02.dll
+C:\Obuchenie_01_2023\GeekBrains\Kurs1\ZsYaPCS_2023\ZsYaPCS_2023_02a_Samostoyatelnaya\ZsYaPCS_2023_02a_S_z.02a.02\bin\Debug\net6.0\ZsYaPCS_2023_02a_S_z.02a.02.pdb
+C:\Obuchenie_01_2023\GeekBrains\Kurs1\ZsYaPCS_2023\ZsYaPCS_2023_02a_Samostoyatelnaya\ZsYaPCS_2023_02a_S_z.02a.02\obj\Debug\net6.0\ZsYaPCS_2023_02a_S_z.02a.02.csproj.AssemblyReference.cache
+C:\Obuchenie_01_2023\GeekBrains\Kurs1\ZsYaPCS_2023\ZsYaPCS_2023_02a_Samostoyatelnaya\ZsYaPCS_2023_02a_S_z.02a.02\obj\Debug\net6.0\ZsYaPCS_2023_02a_S_z.02a.02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Obuchenie_01_2023\GeekBrains\Kurs1\ZsYaPCS_2023\ZsYaPCS_2023_02a_Samostoyatelnaya\ZsYaPCS_2023_02a_S_z.02a.02\obj\Debug\net6.0\ZsYaPCS_2023_02a_S_z.02a.02.AssemblyInfoInputs.cache
+C:\Obuchenie_01_2023\GeekBrains\Kurs1\ZsYaPCS_2023\ZsYaPCS_2023_02a_Samostoyatelnaya\ZsYaPCS_2023_02a_S_z.02a.02\obj\Debug\net6.0\ZsYaPCS_2023_02a_S_z.02a.02.AssemblyInfo.cs
+C:\Obuchenie_01_2023\GeekBrains\Kurs1\ZsYaPCS_2023\ZsYaPCS_2023_02a_Samostoyatelnaya\ZsYaPCS_2023_02a_S_z.02a.02\obj\Debug\net6.0\ZsYaPCS_2023_02a_S_z.02a.02.csproj.CoreCompileInputs.cache
+C:\Obuchenie_01_2023\GeekBrains\Kurs1\ZsYaPCS_2023\ZsYaPCS_2023_02a_Samostoyatelnaya\ZsYaPCS_2023_02a_S_z.02a.02\obj\Debug\net6.0\ZsYaPCS_2023_02a_S_z.02a.02.dll
+C:\Obuchenie_01_2023\GeekBrains\Kurs1\ZsYaPCS_2023\ZsYaPCS_2023_02a_Samostoyatelnaya\ZsYaPCS_2023_02a_S_z.02a.02\obj\Debug\net6.0\refint\ZsYaPCS_2023_02a_S_z.02a.02.dll
+C:\Obuchenie_01_2023\GeekBrains\Kurs1\ZsYaPCS_2023\ZsYaPCS_2023_02a_Samostoyatelnaya\ZsYaPCS_2023_02a_S_z.02a.02\obj\Debug\net6.0\ZsYaPCS_2023_02a_S_z.02a.02.pdb
+C:\Obuchenie_01_2023\GeekBrains\Kurs1\ZsYaPCS_2023\ZsYaPCS_2023_02a_Samostoyatelnaya\ZsYaPCS_2023_02a_S_z.02a.02\obj\Debug\net6.0\ZsYaPCS_2023_02a_S_z.02a.02.genruntimeconfig.cache
+C:\Obuchenie_01_2023\GeekBrains\Kurs1\ZsYaPCS_2023\ZsYaPCS_2023_02a_Samostoyatelnaya\ZsYaPCS_2023_02a_S_z.02a.02\obj\Debug\net6.0\ref\ZsYaPCS_2023_02a_S_z.02a.02.dll

@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ZsYaPCS_2023_02a_S_z._02a._01
+build_property.ProjectDir = C:\Obuchenie_01_2023\GeekBrains\Kurs1\ZsYaPCS_2023\ZsYaPCS_2023_02a_Samostoyatelnaya\ZsYaPCS_2023_02a_S_z.02a.01\
