@@ -7,16 +7,18 @@ int ReadInt (string message)                //Создаём функцию, к�
     return int.Parse(value);                //Функция возвращает число, которое получает с помощью преобразования значения строки в тип инт
 }
 
-int StepenChisla (int A, int B){
-    int result = 1;
+double StepenChisla (double A, int B){
+    double result = 1;      int b = B;
+    if (B < 0) {B = -B;}
     for (int i = 1; i<= B; i++){
         result *= A;
     }
+    if (b < 0) {result = 1/result;}
     return result;
 }
 
-int osnovanie = ReadInt ("Для получения числа в степени, ведите : \tоснование A = ");
-int stepen    = ReadInt (                              "\t\t\t\t\t  степень B = ");
+double osnovanie = ReadInt ("Для получения числа в степени, ведите : \tоснование A = ");
+int stepen    = ReadInt (                              "\t\t\t\t\t\t  степень B = ");
 
-if (stepen >= 0) {Console.WriteLine($"\t\t\t\t\t  результат = {StepenChisla(osnovanie, stepen)}.");}
-else {Console.WriteLine($"К сожалению, эта программа не может посчитать степень {stepen} - у неё лапки :\'(");}
+Console.WriteLine($"\t\t\t\t\t Получите результат = {StepenChisla(osnovanie, stepen)}.");
+//else {Console.WriteLine($"К сожалению, эта программа не может посчитать степень {stepen} - у неё лапки :\'(");}
