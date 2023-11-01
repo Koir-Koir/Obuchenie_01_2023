@@ -37,11 +37,23 @@ double[] PeresechenieDvukhPryamykh(double[] arrayK, double[] arrayB){
     return peresechenie;
 }
 
+// Функция совпадения или параллельности прямых
+bool ParallelnyLiniiLi(double[] arrayK){
+    if (arrayK[0] == 0 && arrayK[1] == 0){
+        Console.WriteLine("К сожалению, эти прямые не пересекаются (или совпадают), т.к. каждая из них параллельна оси Y.");
+        return false;}
+    else if (arrayK[0] == arrayK[1]){
+        Console.WriteLine("К сожалению, эти прямые не пересекаются (или совпадают).");
+        return false;}
+    return true;
+}
+
 double[] massivK = new double[] {0, 0};
 double[] massivB = new double[] {0, 0};
 double[] tochkaPeresecheniya = new double[] {0, 0};
 UserInputCoefficient(massivK, massivB);
 
-
+if (ParallelnyLiniiLi(massivK)){
 tochkaPeresecheniya = PeresechenieDvukhPryamykh(massivK, massivB);
 Console.WriteLine($"\nТочка пересечения двух прямых : ({tochkaPeresecheniya[0]:f2}; {tochkaPeresecheniya[1]:f2}).");
+}
