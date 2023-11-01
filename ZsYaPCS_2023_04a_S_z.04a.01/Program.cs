@@ -60,9 +60,13 @@ Console.Write("Введите \"auto\" для автоматического з�
 string regim = Console.ReadLine();
 
 int[] userInputNumbers = Generaciya1xMassiva(numbersUserEnterM, regim);
-if (regim != "auto"){
-    ZapolnenieMassiva(userInputNumbers);}
-    else {PrintArray(userInputNumbers);
+switch (regim){
+    case "auto": 
+            PrintArray(userInputNumbers);
+            break;
+    default:
+            ZapolnenieMassiva(userInputNumbers);
+            break;
 }
 
 Console.WriteLine($"Вы ввели чисел больше нуля : {CountingMoreZero(userInputNumbers)}") ;
