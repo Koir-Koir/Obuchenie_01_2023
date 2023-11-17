@@ -49,7 +49,7 @@ class Program{
                                        +$"увидеть сумму всех чётных натуральных целых чисел : ");
 
         if (CheckingValuesForNaturalInDiapazon(sumDiapazonFromM, sumDiapazonToN)){
-            Console.WriteLine("Сумма натуральных чисел в указанном диапазоне равна \n" 
+            Console.WriteLine("Сумма натуральных чётных чисел в указанном диапазоне равна \n" 
                         + $"{SumNaturalNumbers(sumDiapazonFromM, sumDiapazonToN)}");
 
         }
