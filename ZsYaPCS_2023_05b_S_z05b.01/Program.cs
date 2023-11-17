@@ -37,7 +37,7 @@ class Program{
 
         void PrintNaturalNumbers(int diapazonFrom, int diapazonTo){
             if (diapazonFrom > diapazonTo){return;}
-            if (diapazonFrom > 0 && diapazonFrom % 2 == 0) {
+            if (diapazonFrom > 1 && diapazonFrom % 2 == 0) {
                 Console.Write($"{diapazonFrom}\t");
                 PrintNaturalNumbers(diapazonFrom + 2, diapazonTo);
                 }
@@ -45,7 +45,7 @@ class Program{
         }
 
         int printDiapazonFromM = ReadInt("Введите число (M) от которого Вы хотите " 
-                                       +$"увидеть все натуральные чётные числа : ");
+                                       +$"увидеть все натуральные целые чётные числа : ");
                                        
         int printDiapazonToN =   ReadInt("Введите число (N) до которого Вы хотите " 
                                     +$"увидеть все натуральные целые чётные числа : ");
