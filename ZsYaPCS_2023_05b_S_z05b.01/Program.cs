@@ -4,7 +4,7 @@
  // Задача 64: Задайте значения M и N. Напишите программу, которая
  // выведет все чётные натуральные числа в промежутке от M до N
  // с помощью рекурсии.
-//      
+// !В задании не указано какими должны быть M и N, поэтому принято, что любыми целыми.      
 
 // Ошибки до компиляции
  // не убрал при копировании int
@@ -23,7 +23,7 @@ class Program{
             return int.Parse(value);                
         }
 
-        bool CheckingValuesPrintDiapazon(int argumentFrom, int argumentTo){
+        bool CheckingValuesForNaturalInDiapazon(int argumentFrom, int argumentTo){
             if (argumentTo > 0 && argumentTo >= argumentFrom){
                 return true;
             } else if (argumentTo < argumentFrom){
@@ -43,10 +43,10 @@ class Program{
 
         int printDiapazonFromM = ReadInt("Введите число (M) от которого Вы хотите " 
                                        +$"увидеть все натуральные числа : ");
-        int printDiapazonToN = ReadInt("Введите число (N) до которого Вы хотите " 
-                                    +$"увидеть все натуральные числа : ");
+        int printDiapazonToN =   ReadInt("Введите число (N) до которого Вы хотите " 
+                                    +$"увидеть все натуральные целые числа : ");
 
-        if (CheckingValuesPrintDiapazon(printDiapazonFromM, printDiapazonToN)){
+        if (CheckingValuesForNaturalInDiapazon(printDiapazonFromM, printDiapazonToN)){
             PrintNaturalNumbers(printDiapazonFromM, printDiapazonToN);
         }
     }
