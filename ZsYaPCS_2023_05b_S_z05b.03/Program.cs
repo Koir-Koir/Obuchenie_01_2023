@@ -8,7 +8,7 @@
 // Ошибки до компиляции
  // не все пути к коду возвращают значение. : 
  //     /*else if (argumentM > 0 && argumentN > 0)*/ => else
- // > 0 => >= 0
+ // > 0 => >= 0   _=>_ затем инвертировал условие ">= 0" => "<" if<=>else
 //
 
 using System;
@@ -23,12 +23,13 @@ class Program{
         }
 
         bool CheckingValuesForAkerman(int argumentM, int argumentN){
-            if (argumentM >= 0 && argumentN >= 0){
-                return true;
-            } else {
+            if (argumentM < 0 && argumentN < 0){
                 Console.WriteLine("Функция Акермана можно посчитать если и M,"
                                 + " и N будут неотрицательными.");
                 return false;
+                
+            } else {
+                return true;
             }
         }
 
