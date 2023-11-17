@@ -29,7 +29,8 @@ class Program{
                 Console.WriteLine("Вы ввели некорректный диапазон! Введите вначале меньшее число, а затем большее.");
                 return false;
             } else {
-                Console.Write($"Между \"{argumentFrom}\" и \"{argumentTo}\" натуральных целых чисел нет!");
+                Console.WriteLine($"Между \"{argumentFrom}\" и \"{argumentTo}\" натуральных целых чисел нет!"
+                                + $" Cоответственно, эта сумма равна \n{0}");
                 return false;
             }
         }
@@ -50,7 +51,6 @@ class Program{
             Console.WriteLine("Сумма натуральных чисел в указанном диапазоне равна \n" 
                         + $"{SumNaturalNumbers(sumDiapazonFromM, sumDiapazonToN)}");
 
-        } else {Console.Write($" Cоответственно, эта сумма равна \n{0}");
         }
     }
 }
