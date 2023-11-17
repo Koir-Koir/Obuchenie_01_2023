@@ -23,7 +23,7 @@ class Program{
         }
 
         bool CheckingValuesForAkerman(int argumentM, int argumentN){
-            if (argumentM < 0 && argumentN < 0){
+            if (argumentM < 0 || argumentN < 0){
                 Console.WriteLine("Функция Акермана можно посчитать если и M,"
                                 + " и N будут неотрицательными.");
                 return false;
