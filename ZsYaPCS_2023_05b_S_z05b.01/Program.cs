@@ -42,10 +42,10 @@ class Program{
         }
 
         int printDiapazonFromM = ReadInt("Введите число (M) от которого Вы хотите " 
-                                       +$"увидеть все натуральные числа : ");
+                                       +$"увидеть все натуральные чётные числа : ");
                                        
         int printDiapazonToN =   ReadInt("Введите число (N) до которого Вы хотите " 
-                                    +$"увидеть все натуральные целые числа : ");
+                                    +$"увидеть все натуральные целые чётные числа : ");
 
         if (CheckingValuesForNaturalInDiapazon(printDiapazonFromM, printDiapazonToN)){
             PrintNaturalNumbers(printDiapazonFromM, printDiapazonToN);
