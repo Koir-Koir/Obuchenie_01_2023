@@ -37,15 +37,16 @@ class Program{
 
         int SumNaturalNumbers(int diapazonFrom, int diapazonTo){
             if (diapazonFrom > diapazonTo){return 0;}
-            if (diapazonFrom <= 0) {return SumNaturalNumbers(1, diapazonTo);}
-            return SumNaturalNumbers(diapazonFrom + 1, diapazonTo)+diapazonFrom;
+            if (diapazonFrom <= 0) {return SumNaturalNumbers(2, diapazonTo);}
+            if (diapazonFrom % 2 == 1) {return SumNaturalNumbers(diapazonFrom + 1, diapazonTo);}
+            return SumNaturalNumbers(diapazonFrom + 2, diapazonTo)+diapazonFrom;
         }
 
         int sumDiapazonFromM = ReadInt("Введите число (M) от которого Вы хотите " 
-                                       +$"увидеть сумму всех натуральных целых чисел : ");
+                                       +$"увидеть сумму всех чётных натуральных целых чисел : ");
 
         int sumDiapazonToN =   ReadInt("Введите число (N) до которого Вы хотите " 
-                                       +$"увидеть сумму всех натуральных целых чисел : ");
+                                       +$"увидеть сумму всех чётных натуральных целых чисел : ");
 
         if (CheckingValuesForNaturalInDiapazon(sumDiapazonFromM, sumDiapazonToN)){
             Console.WriteLine("Сумма натуральных чисел в указанном диапазоне равна \n" 
