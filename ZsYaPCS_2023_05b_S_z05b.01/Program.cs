@@ -37,7 +37,10 @@ class Program{
 
         void PrintNaturalNumbers(int diapazonFrom, int diapazonTo){
             if (diapazonFrom > diapazonTo){return;}
-            if (diapazonFrom > 0 && diapazonFrom % 2 == 0) {Console.Write($"{diapazonFrom}\t");}
+            if (diapazonFrom > 0 && diapazonFrom % 2 == 0) {
+                Console.Write($"{diapazonFrom}\t");
+                PrintNaturalNumbers(diapazonFrom + 2, diapazonTo);
+                }
             PrintNaturalNumbers(diapazonFrom + 1, diapazonTo);
         }
 
